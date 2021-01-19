@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>India Press</title>
+        <style>
+            body{
+                background-image: url("Images/bgr2.gif");
+                background-size: 260px 50px;
+            }
+            .container{
+                
+                width: 100%;
+            }
+            .content{
+                margin-top: 100px;
+                display: grid;
+                grid-template-columns:2.5fr 7fr 2.5fr;
+                grid-gap: 20px;
+                background-color: rgb(247, 245, 242);
+            }
+            .logo{
+                position:fixed;
+                top: 25px;
+                right: 175px;
+                width: 180px;
+    
+            }
+            header {
+                background-color: orange;
+                color:white;
+                font-weight: bold;
+                font-size: 20px;
+                font-family: Arial;
+                display: flex;
+                justify-content: space-between;
+                grid-row: 1;
+                grid-column: 1/4;
+            
+            }
+            .nav-header{
+                padding: 5px;
+                background-color: rgb(104, 53, 53);
+                color:white;
+                font-weight: bold;
+                text-align: center;
+                margin-top: 3px;
+            }
+            .nav-footer{
+                padding: 5px;
+                background-color:orange;
+                color:white;
+                font-weight: bold;
+                text-align: center;
+                margin-top: 3px;
+            }
+            footer {
+                background-color: green;
+                color:white;
+                font-weight: bold;
+                font-size: 20px;
+                font-family: Arial;
+                display: flex;
+                justify-content: space-evenly;
+                grid-row: 3;
+                grid-column: 1/4;
+            }
+            nav {
+                grid-row:2;
+                grid-column: 1;
+                background-color: rgb(248, 242, 236);
+            }
+            aside{
+                grid-row:2;
+                grid-column: 3;
+                text-align: center;
+                background-color: antiquewhite;
+                display: block;
+            }
+            main {
+                grid-row: 2;
+                grid-column: 2;
+            }
+            ul>li{
+                text-align: left;
+                list-style-image: url(images/bull.gif);
+            }
+            #red-text{
+                color: red;
+            }
+            #membership{
+                background-color: rgb(245, 245, 202);
+                margin-top: 5px;
+            }
+            #membership>a{
+                color:blue
+            }
+            #top10{
+                background-color: brown;
+                color: aliceblue;
+                text-align: center;
+            }
+            .inner-container{
+                display: grid;
+                grid-template-columns: 6fr 6fr;
+                grid-gap: 20px; 
+            }
+            .inner-container1{
+                display: grid;
+                grid-template-columns: 6fr 6fr;
+                grid-gap: 20px;
+                background-color: bisque;
+            }
+            #border{
+                border: double;
+                text-align: center;
+            }
+            #border>span{
+                color: rgb(214, 35, 35);
+            }
+            .inner-container1>div{
+                text-align: center;
+                margin: 2px 0px;
+            
+                
+            }
+            main h3{
+                margin: 5px 0;
+                padding: 0;
+            }
+            div>h4{
+                margin: 0;
+                padding: 0;
+            }
+            .last-img{
+                display: inline-flexbox;
+                text-align:
+            }
+            #img1{
+                position: relative;
+                top: 2px;
+                left: 20px;
+            }
+            #img2{
+                position: relative;
+                top: 2px;
+                left: 600px;
+            }
+            .ad{
+                width: 65%;
+                margin: auto;
+            }
+            p>a{
+                color: brown;
+                font-weight: bold;
+            }
+            .ad1>a,.ad2>a,.ad3>a{
+                color: black;
+                font-weight: bold;
+            }
+            .ad1{
+                background-color: rgb(248, 156, 17);
+            }
+            .ad2{
+                margin-top: 3px;
+                background-color: rgb(248, 102, 17);
+            }
+             .ad3{
+                margin-top: 3px;
+                background-color: rgb(245, 195, 166);
+            }
+
+        </style>
+    </head>
+    <body>
+        
+      <div class="container">
+        <div>
+            <img class="logo" src="../../Images/ip3.gif" alt="Indiapress Logo">
+        </div>
+        <div class="content">
+          <header>
+             <div>Vol 336 | Year 20</div>
+             <div>December 5</div>
+             <div>India News Papers Links & India News</div>
+          </header>
+          <nav>
+            <div class="nav-header">
+                Language News Papers
+            </div>
+            <div>
+                <ul>
+                     
+                   <li><a href="#">Assamese Newspaper</a></li>
+                   <li><a href="#">Bengali Newspaper</a></li>
+                   <li><a href="#">Urdu Newspaper</a></li>
+                   <li><a href="#">Gujarati Newspaper</a></li>
+                   <li><a href="#">Kanada Newspaper</a></li>
+                   <li><a href="#">Hindi Newspaper</a></li>
+                   <li><a href="#">English Newspaper</a></li>
+                   <li><a href="#">Odia Newspaper</a></li>
+                   <li><a href="#">Tamil Newspaper</a></li>
+                   <li><a href="#">Punjabi Newspaper</a></li>
+                   <li><a href="#">Marathi Newspaper</a></li>
+                   <li><a href="#">Telugu Newspaper</a> </li>
+                   <li><a href="#" id="red-text">Newspapers from :</a> </li>
+                   <a href="#">States</a> | <a href="#">Cities</a><br><br>
+                </ul>
+            </div>
+            <div class="nav-footer">
+                Members Personal Pages
+            </div>
+          </nav>
+          <main>
+            We provide free online newspapers links to all Indian language newspapers without downloading their fonts including all regional newspapers of India in languages like Tamil, Hindi, Urdu, Telugu, Malayalam, Punjabi, Marathi, Bengali, Kannada, Gujarati, Konkani, Oriya, Assamese and English, etc.
+            <div id="membership">Members can now build their customize free home pages upload their Picture, logo and contact information also can select newspapers, news and check other pop3 mails. <a href="#">Click to join free Membership</a></div>
+            <div id="top10"><h3>TOP 10 <u>INDIAN NEWSPAPERS</u> VISITED FROM OUR SITE</h3></div>
+            <div class=inner-container>
+                <div>
+                    <h4><a href="#">Akila Daily</a> (811473 Hits)</h4>
+                    Akila - Indian Newspaper in Gujarati Language from Rajkot Saurashtra.<br><br>
+                    <h4><a href="#">Hindi Milap </a> (475886 Hits)</h4>
+                    Hindi Milap - Indian Newspaper in Hindi Language from Hyderabad.
+                </div>    
+                <div>
+                    <h4><a href="#">Dainik Jagran</a>  (720322 Hits)</h4>
+                    Dainik Jagran - Indian Newspaper in Hindi Language Portal.<br><br>
+                    <h4><a href="#">Inquilab</a> (456116 Hits)</h4>
+                    Inquilab Indian Newspaper of Urdu Language from Mumbai, Maharashtra
+                </div>
+                <div>
+                    <h4><a href="#">Dainik Jagran</a>  (720322 Hits)</h4>
+                    Dainik Jagran - Indian Newspaper in Hindi Language Portal.<br><br>
+                    
+                </div>
+                <div>
+                     <h4><a href="#">Dainik Jagran</a>  (720322 Hits)</h4>
+                    Dainik Jagran - Indian Newspaper in Hindi Language Portal.<br><br>
+                </div>
+            </div>     
+            <div id="border"><Span>Text Links here. Please click to <a href="#">contact us</a></span></div>
+            <div class=inner-container1>
+                <div>
+                    <a href="#">READ INDIA NEWS ONLINE</a>
+                    
+                </div>    
+                <div>
+                    <a href="#">WORLD NEWS PAPERS ONLINE</a>
+                </div>
+            </div>
+            <div class="last-img">
+                    <img src="images/en_aw_88x31.gif" alt="" id="img1">
+                    <img src="images//links.gif" alt="" id="img2">
+            </div>     
+        </main>
+          <aside>
+            <img src="images/ip_epapers_logo_200.png">
+             
+            <div class="ad"><p><a href="#">Visit to download apk for ePapers of many Indian Newspapers</a></p></div>
+            <div class="ad1"><a href="#">Cinema.Bharat - Indian Films</a></div>
+            <div class="ad2"><a href="#">Gayatri Mantra Sangrah</a></div>
+            <div class="ad3"><a href="#">बही खाता Bahi Khata 2020-21</a></div>
+          </aside>
+          <footer>
+             <div><a>Contact Us</a></div>
+             <div><a>Advertisement</a></div>
+             <div><a>Disclaimer</a></div>
+             <div><a>Sitemap</a></div>
+          </footer>
+        </div>
+      </div>
+    </body>
+</html>
